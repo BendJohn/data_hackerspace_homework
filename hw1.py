@@ -46,7 +46,7 @@ def reflections_and_projections(points):
         b = [i[0]][i[1]]
         np.matmul(a, b)
         a = [[1, 3][3, 9]]
-        np.matmul(a, b)
+        return np.matmul(a, b)
 
 def normalize(image):
     min = image[0][0]
